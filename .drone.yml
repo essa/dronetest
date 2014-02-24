@@ -1,6 +1,7 @@
 image: bradrydzewski/java:oraclejdk7
 script:
   - ant test
+  - sleep 10
 notify:
   email:
     recipients:
