@@ -8,7 +8,7 @@ public class MainTest {
     @Test
     public void testAdd() {
         assertThat(Main.add(10, 5), is(15));
-        assertThat(Main.add(10, 6), is(17));
+        assertThat(Main.add(10, 6), is(16));
     }
 }
 
